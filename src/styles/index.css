@@ -1,0 +1,70 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.about-p {
+    text-align: justify;
+}
+
+.hr {
+    background-color: white;
+    border-style: dotted none none;
+    border-width: 10px;
+    border-color: green;
+    width: 15%;
+    margin-left: 2%;
+    padding: 20px;
+    background: transparent;
+}
+
+/* Feature Section */
+
+.icon {
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 10px 10px;
+    width: 100px;
+    height: 100px;
+    color: #41B06E;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    background-color: #41B06E;
+}
+
+.features-box {
+    text-align: center;
+}
+
+.feature {
+    font-family: helvetica;
+    font-weight: 600;
+}
+
+.fcontent {
+    color: #8f8f8f;
+    margin-bottom: 100px;
+
+}
+
+#features {
+    padding: 2% 10%;
+    /* background-color: #000; */
+    position: relative;
+    /* color: #fff; */
+    /* opacity: .5; */
+}
+
+/* End Feature Section */

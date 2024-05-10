@@ -1,0 +1,13 @@
+.above-header-main {
+    height: 25px;
+    background-color: #41B06E;
+}
+
+.above-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.above-link:hover {
+    color: #000;
+}
