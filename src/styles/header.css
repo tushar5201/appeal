@@ -1,15 +1,17 @@
-
 .navbar-brand {
   margin-top: 0px;
   padding: 0px;
 }
 
 .navbar {
-  /* height: max-content; */
   background-color: #000;
   height: 120px;
   padding: 0;
   z-index: 1;
+}
+
+.navbar-nav {
+  margin-left: auto;
 }
 
 ul {
@@ -67,7 +69,7 @@ ul {
 
 h2 {
   width: 500px;
-  margin-left: -100px; 
+  margin-left: -100px;
   color: #41B06E;
 }
 
@@ -109,7 +111,7 @@ h2 {
 
 .level1-ul {
   position: absolute;
-  top: 0; 
+  top: 0;
   margin-left: 92%;
   animation: fadeInRight 500ms 0ms forwards;
 }
@@ -131,3 +133,66 @@ h2 {
 }
 
 /* End Level 1 */
+
+@media (max-width: 420px) {
+
+  .navbar-nav {
+    background-color: #000;
+    width: 105%;
+    margin-left: -9px;
+  }
+
+  .nav-link {
+    padding: 1rem;
+  }
+
+  .ext-nav {
+    height: auto;
+    /* background-color: #000; */
+    position: relative;
+    margin-left: 0px;
+  }
+
+  .level0-ul {
+    margin-left: 0;
+    left: 0;
+    position: relative;
+    width: 300px;
+  }
+
+  .nav-item-level0 {
+    padding: .5rem;
+    width: 300px;
+    left: 0;
+  }
+  
+  .nav-link-level0 :hover {
+    color: #41B06E;
+    border-left: 3px solid #41B06E;
+  }  
+
+  .level1-ul {
+    position: relative;
+    margin-left: 0;
+  }
+
+  .nav-item-level1 {
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .nav-link-level1 {
+    list-style-type: none;
+    text-decoration: none;
+    width: 20px;
+    color: grey;
+  }
+  
+  .nav-link-level1 :hover {
+    border-left: none;
+  }
+
+  .name {
+    display: none;
+  }
+}

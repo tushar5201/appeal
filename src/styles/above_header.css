@@ -11,3 +11,10 @@
 .above-link:hover {
     color: #000;
 }
+
+@media (max-width: 420px) {
+
+    .above-header-main {
+        height: auto;
+    }
+}

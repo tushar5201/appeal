@@ -15,3 +15,21 @@
     margin-left: -15%;
     text-align: center;
 }
+
+@media (max-width: 420px) {
+    .carousel_img {
+        height: 225px;
+    }
+
+    .carousel_caption {
+        display: none;
+    }
+
+    .carousel_main {
+        margin-top: 5%;
+    }
+
+    h3 {
+        font-size: .8rem;
+    }
+}
